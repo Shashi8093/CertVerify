@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Certificate - CertVerify</title>
+    <link rel="stylesheet" href="../css/upload-certificate.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CertVerify</div>
+            <a href="university-login.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to University Portal
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="upload-certificate">
+            <h1>Upload Student Certificate</h1>
+            <form id="certificate-form">
+                <div class="form-group">
+                    <label for="student-name">Student Name</label>
+                    <input type="text" id="student-name" name="student-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="certificate-type">Certificate Type</label>
+                    <input type="text" id="certificate-type" name="certificate-type" required>
+                </div>
+                <div class="form-group">
+                    <label for="issue-date">Issue Date</label>
+                    <input type="date" id="issue-date" name="issue-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="certificate-file">Certificate File</label>
+                    <input type="file" id="certificate-file" name="certificate-file" required>
+                </div>
+                <button type="submit" class="submit-button">Upload Certificate</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CertVerify. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
